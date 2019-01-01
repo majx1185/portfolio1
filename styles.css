@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    position: absolute;
+    width: 73vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+    border-right: 0.1vw white solid;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(Billeder/splash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profilphoto img {
+    position: absolute;
+    flex-basis: 2vw;
+    flex-grow: 1;
+    left: 78vw;
+    top: 4vw;
+    width: 20vw;
+    border-radius: 100%;
+}
+
+.headline {
+    position: absolute;
+    top: 20vw;
+    left: 10vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.cv {
+    position: absolute;
+    top: 35vw;
+    left: 10vw;
+    color: white;
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.cvtxt {
+    position: absolute;
+    top: 43vw;
+    left: 7vw;
+    color: white;
+    font-size: 2vw;
+}
+
+.projects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 29vw;
+    left: 10vw;
+    width: 80vw;
+    height: 35vw;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+#intro .projects .content .txt {
+    position: absolute;
+    width: 40vw;
+    top: 10vw;
+    left: 30vw;
+    font-size: 2.5vw;
+}
+
+.box1 img {
+    position: absolute;
+    flex-basis: 2vw;
+    flex-grow: 1;
+    width: 14vw;
+    height: 14vw;
+    border: 0.2vw solid white;
+    border-radius: 100%;
+    top: 7vw;
+    left: 7vw;
+}
+
+.box1 p {
+    position: absolute;
+    top: 23vw;
+    left: 7vw;
+    width: 15vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.box2 img {
+    position: absolute;
+    flex-basis: 2vw;
+    flex-grow: 1;
+    width: 14vw;
+    height: 14vw;
+    border: 0.2vw solid white;
+    border-radius: 100%;
+    top: 7vw;
+    left: 32vw;
+}
+
+.box2 p {
+    position: absolute;
+    top: 23vw;
+    left: 32vw;
+    width: 15vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.box3 img {
+    position: absolute;
+    flex-basis: 2vw;
+    flex-grow: 1;
+    width: 14vw;
+    height: 14vw;
+    border: 0.2vw solid white;
+    border-radius: 100%;
+    top: 7vw;
+    left: 57vw;
+}
+
+.box3 p {
+    position: absolute;
+    top: 23vw;
+    left: 57vw;
+    width: 15vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1.8vw;
+}

@@ -3,12 +3,22 @@
     font-family: sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
+#menuknap {
+    font-size: 4vw;
+    color: white;
+}
+
 nav {
     position: absolute;
     width: 73vw;
     display: flex;
     flex-direction: row;
     padding: 2vw;
+    top: 1vw;
 }
 
 a {

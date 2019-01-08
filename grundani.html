@@ -7,36 +7,71 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="intro.html">Intro-ugen</a>
-        <a href="grundweb.html">Grundlæggende Webdesign</a>
-        <a href="grundindhold.html">Grundlæggende Indhold</a>
-        <a href="grundani.html">Grundlæggende Animation</a>
-        <a href="grundux.html">Grundlæggende UX</a>
-    </nav>
-
-</header>
 
 <body>
 
-    <div class="headline">
-        <h1>Grundlæggende Animation</h1>
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <a href="index.html">Hjem</a>
+                <a href="intro.html">Om mig</a>
+                <a href="grundweb.html">Grundlæggende Webdesign</a>
+                <a href="grundindhold.html">Grundlæggende Indhold</a>
+                <a href="grundani.html">Grundlæggende Animation</a>
+                <a href="grundux.html">Grundlæggende UX</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="grundani">
+
+        <div class="headline">
+            <h1>Grundlæggende Animation</h1>
+        </div>
+        <div class="underhead">
+            <h3>I tema 3 har vi lært om forskellige animationsteknikker, både med henblik på design og på det tekniske aspekt. Jeg har brugt Adobe Illustrator, samt Javascript til at udvikle figurer og motiver, der kan bevæge sig og, som man kan interagere med på forskellig vis. I dette tema har jeg udviklet 2 computerspil, det ene af dem individuelt og det andet som et gruppeprojekt.</h3>
+        </div>
+
+        <div class="projects">
+            <div class="box1">
+                <div class="picture">
+                    <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A03cf5c65-8682-4f69-95ab-5c4441d90a15"><img src="Billeder/styletileani.png" alt="styletileani"></a>
+                    <p>Styletile med link</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave skulle vi løbende samle research og inspiration til vores spil, samt vise hvordan spillet og figurerne er blevet udviklet. Dette blev bl.a. gjort ved at lave et statemachine diagram. For at få gang i idegenereringen blev vi tildelt en liste med en figur, et sted og en bevægelse. Min idé blev udviklet på baggrund af nogle af elementer på denne liste.</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="picture">
+                    <a href="http://majroslyng.dk/kea/03-animation/spil/spil.html"><img src="Billeder/animationspil.png" alt="animationspil"></a>
+                    <p>Animationsopgave</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave skulle vi udvikle selvespillet. Her blev vi introduceret til Javascript, hvor vi anvendte functioner til at kunne interagere med elementer i spillet. Derudover blev vi introduceret til keyframes i css, som ved hjælp af javascript kunne få et element til at bevæge sig.</p>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="picture">
+                    <a href="http://lauravillumsen.com/kea/03-animation/Send_eller_slet_final/index.html?fbclid=IwAR3Hg_Gapk0Ik5Rm-h5uIYnL1StmEOb7TtROVWpx374V1Vis5TWZHItAQJw"><img src="Billeder/sexogsamfund.png" alt="sexogsamfund"></a>
+                    <p>Sex og samfund</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave skulle vi udvikle et spil til Sex og samfund, med henblik på billededeling på nettet. Vi lavede en test af vores spil på en person i aldersgruppen 13-15 år, hvilket var målgruppen for projektet. På baggrund af den test, fandt vi ud af hvilke ændringer der skulle laves, for at spillet kunne blive bedre. Efter nærmere undersøgelse af målgruppen, kunne vi desuden afgøre hvilke elementer de unge i den aldersgruppe, synes er vigtigst og mest interessant.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="projects">
-        <div class="box1"><img src="Billeder/stilarthtml.png" alt="stilarthtml">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box2"><img src="Billeder/stilartui.png" alt="stilartui">
-            <p> beskrivelse</p>
-        </div>
-        <div class="box3"><img src="Billeder/stilartresp.png" alt="stilartresp">
-            <p>beskrivelse</p>
-        </div>
-    </div>
+    <footer>
+        <p>Københavns Erhvervsakademi / 2019</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
+
+
 </html>

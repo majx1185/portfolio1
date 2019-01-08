@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="intro.html">Intro-ugen</a>
-        <a href="grundweb.html">Grundlæggende Webdesign</a>
-        <a href="grundindhold.html">Grundlæggende Indhold</a>
-        <a href="grundani.html">Grundlæggende Animation</a>
-        <a href="grundux.html">Grundlæggende UX</a>
-    </nav>
-
-</header>
-
 <body>
+
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <a href="index.html">Hjem</a>
+                <a href="intro.html">Om mig</a>
+                <a href="grundweb.html">Grundlæggende Webdesign</a>
+                <a href="grundindhold.html">Grundlæggende Indhold</a>
+                <a href="grundani.html">Grundlæggende Animation</a>
+                <a href="grundux.html">Grundlæggende UX</a>
+            </div>
+        </nav>
+
+    </header>
+
 
     <div id="intro">
         <div class="headline">
-            <h1>Intro - ugen</h1>
+            <h1>Om mig</h1>
         </div>
 
         <div class="projects">
             <div class="content">
                 <div class="box1">
-                    <img src="Billeder/presentationskort.png" alt="presentationsbillede">
-                </div>
-                <div class="txt">
-                    <p>Vores allerførste opgave på studiet, var at lave et lille præsentationskort af os selv i Abobe Illustrator.</p>
+                    <div class="picture">
+                        <img src="Billeder/bennevis.png" alt="profilbillede2">
+                    </div>
+                    <div class="text">
+                        <p>Mit navn er Maj og jeg er 20 år gammel. Lige pt bor jeg lidt uden for Helsinge på en gård, men jeg flytter snart til København. I hverdagen studerer jeg på KEA, men når jeg har tid og penge til det, elsker jeg at tage ud og rejse. Mit mål i livet er, at opleve så mange forskellige kulturer som muligt, og se så mange forskellige landskaber som muligt. I sommeren 2017, afsluttede jeg en STX-uddannelse på Frederiksborg Gymnasium, med sprog som hovedefag. I fremtiden regner jeg med at kunne udnytte mine sprogfærdigheder arbejdsmæssigt, samt min kreative side til at udvikle effektive og innovative idéer i samarbejde med en masse forskellige mennesker.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer>
+        <p>Københavns Erhvervsakademi / 2019</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
+
+
 </html>

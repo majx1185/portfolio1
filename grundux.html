@@ -7,36 +7,81 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="intro.html">Intro-ugen</a>
-        <a href="grundweb.html">Grundlæggende Webdesign</a>
-        <a href="grundindhold.html">Grundlæggende Indhold</a>
-        <a href="grundani.html">Grundlæggende Animation</a>
-        <a href="grundux.html">Grundlæggende UX</a>
-    </nav>
 
-</header>
 
 <body>
 
-    <div class="headline">
-        <h1>Grundlæggende UX</h1>
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <a href="index.html">Hjem</a>
+                <a href="intro.html">Om mig</a>
+                <a href="grundweb.html">Grundlæggende Webdesign</a>
+                <a href="grundindhold.html">Grundlæggende Indhold</a>
+                <a href="grundani.html">Grundlæggende Animation</a>
+                <a href="grundux.html">Grundlæggende UX</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="grundux">
+        <div class="headline">
+            <h1>Grundlæggende UX</h1>
+        </div>
+        <div class="underhead">
+            <h3>I tema x har vi lært om forskellige layoutprincipper (viden), jeg valgte at bruge x-princip til at løse den efterfølgende opgave på følgende måde (færdighed), jeg valgte denne løsning fremfor en anden fordi... (kompetence).</h3>
+        </div>
+
+        <div class="projects">
+            <div class="box1">
+                <div class="picture">
+                    <a href="https://xd.adobe.com/view/d0afcef5-9f32-4322-7874-504b15b6a21d-a69e/"><img src="Billeder/designsprint.png" alt="designsprint"></a>
+                    <p>Design Sprint</p>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sed voluptates ab, nulla reiciendis excepturi asperiores, facilis sunt. Voluptates optio illum rem sapiente nostrum soluta sint, quam molestias, voluptatum quod.</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="picture">
+                    <a href="http://majroslyng.dk/kea/04-UX/04_03_01_web_prototype/forside.html?"><img src="Billeder/webprototype.png" alt="webprototype"></a>
+                    <p>Web Prototype</p>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sed voluptates ab, nulla reiciendis excepturi asperiores, facilis sunt. Voluptates optio illum rem sapiente nostrum soluta sint, quam molestias, voluptatum quod.</p>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="picture">
+                    <a href="https://xd.adobe.com/view/9640e628-f981-4d69-651f-c7297964aa16-e071/"><img src="Billeder/nativeapp.png" alt="nativeapp"></a>
+                    <p>Native App</p>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sed voluptates ab, nulla reiciendis excepturi asperiores, facilis sunt. Voluptates optio illum rem sapiente nostrum soluta sint, quam molestias, voluptatum quod.</p>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="picture">
+                    <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ab50c0ac9-b116-418a-8d7a-b3b18b78a835"><img src="Billeder/temadoku.png" alt="nativeapp"></a>
+                    <p>Temadokumentation</p>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat sed voluptates ab, nulla reiciendis excepturi asperiores, facilis sunt. Voluptates optio illum rem sapiente nostrum soluta sint, quam molestias, voluptatum quod.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="projects">
-        <div class="box1"><img src="Billeder/stilarthtml.png" alt="stilarthtml">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box2"><img src="Billeder/stilartui.png" alt="stilartui">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box3"><img src="Billeder/stilartresp.png" alt="stilartresp">
-            <p>beskrivelse</p>
-        </div>
-    </div>
+    <footer>
+        <p>Københavns Erhvervsakademi / 2019</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
+
+
 </html>

@@ -7,35 +7,60 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="intro.html">Intro-ugen</a>
-        <a href="grundweb.html">Grundlæggende Webdesign</a>
-        <a href="grundindhold.html">Grundlæggende Indhold</a>
-        <a href="grundani.html">Grundlæggende Animation</a>
-        <a href="grundux.html">Grundlæggende UX</a>
-    </nav>
 
-</header>
 
 <body>
-    <div class="headline">
-        <h1>Grundlæggende Indhold</h1>
+
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <a href="index.html">Hjem</a>
+                <a href="intro.html">Om mig</a>
+                <a href="grundweb.html">Grundlæggende Webdesign</a>
+                <a href="grundindhold.html">Grundlæggende Indhold</a>
+                <a href="grundani.html">Grundlæggende Animation</a>
+                <a href="grundux.html">Grundlæggende UX</a>
+            </div>
+        </nav>
+
+    </header>
+    <div id="grundind">
+        <div class="headline">
+            <h1>Grundlæggende Indhold</h1>
+        </div>
+        <div class="underhead">
+            <h3>I tema 2 har vi lært om forskellige udviklingskoncepter i forbindelse med videoproduktion. Derudover har vi anvendt både nye og gamle metoder indenfor webdesign til at lave et redesign af en hjemmeside. Jeg valgte at bruge nylærte færdigheder indenfor Premiere Pro til at løse Pilotprojekt opgaven. Til redesignet brugte vi bl.a. 5 sekunders-testen til research, og flexbox for at gøre sitet responsivt.</h3>
+        </div>
+
+        <div class="projects">
+            <div class="box1">
+                <div class="picture">
+                    <a href="https://www.youtube.com/watch?v=agwFrJ8Mzhc&feature=youtu.be"><img src="Billeder/loesvideo.png" alt="loes"></a>
+                    <p>Pilot projekt</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave blev vi bl.a. introduceret til konceptudvikling og dramaturgi for at have de rigtige kompetencer til at kunne sammensætte en god video. Vi blev også introduceret til Premiere Pro for at kunne samle, redigere og udgive videoen. Vi brugte kompetencer indenfor konceptudvikling til at lave et storyboard, for at have styr på hvilke videoklip vi gerne ville have med til sidst.</p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="picture">
+                    <a href="http://majroslyng.dk/kea/02-content/02-redesign/02_02_06_redesign/"><img src="Billeder/everydaywebsite.png" alt="everydayweb"></a>
+                    <p>Redesign web</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave blev vi introduceret til Bert-testen og 5 sekunders-testen, i forbindelse med research til redesignet. Derudover anvendte vi kompetencer tillært i tema 1, som bl.a. kodning med html og css, og diverse layoutprincipper. Dette brugte vi til at udvikle et mere velfungerende site, med et design, der er mere brugervenligt og overskueligt.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="projects">
-        <div class="box1"><img src="Billeder/loesvideo.png" alt="loes">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box2"><img src="Billeder/everydayvideo.png" alt="everydayvid">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box3"><img src="Billeder/everydaywebsite.png" alt="everydayweb">
-            <p>beskrivelse</p>
-        </div>
-    </div>
+    <footer>
+        <p>Københavns Erhvervsakademi / 2019</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
+
 </html>

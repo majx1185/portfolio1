@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="intro.html">Intro-ugen</a>
-        <a href="grundweb.html">Grundlæggende Webdesign</a>
-        <a href="grundindhold.html">Grundlæggende Indhold</a>
-        <a href="grundani.html">Grundlæggende Animation</a>
-        <a href="grundux.html">Grundlæggende UX</a>
-    </nav>
-
-</header>
-
 <body>
-    <div class="headline">
-        <h1>Grundlæggende Webdesign</h1>
+
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <a href="index.html">Hjem</a>
+                <a href="intro.html">Om mig</a>
+                <a href="grundweb.html">Grundlæggende Webdesign</a>
+                <a href="grundindhold.html">Grundlæggende Indhold</a>
+                <a href="grundani.html">Grundlæggende Animation</a>
+                <a href="grundux.html">Grundlæggende UX</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="grundweb">
+        <div class="headline">
+            <h1>Grundlæggende Webdesign</h1>
+        </div>
+        <div class="underhead">
+            <h3>I tema 1 har vi lært om forskellige layoutprincipper og udtryksformer, samt fået basal viden om brug af html og css i brackets, i forbindelse med produktion af brugergrænseflader. Jeg valgte at bruge en grafisk analyse og flexbox til at løse Stilartssite-opgaven, ved at bruge bestemte fonts og farver, samt at gøre sitet respontivt.</h3>
+        </div>
+
+        <div class="projects">
+            <div class="box1">
+                <div class="picture">
+                    <a href="http://majroslyng.dk/kea/01-web/04-responsive/01_04_02_responsive_v2/"><img src="Billeder/stilartresp.png" alt="stilartresp"></a>
+                    <p>Stilartssite final</p>
+                </div>
+                <div class="text">
+                    <p>I denne opgave blev vi introduceret til bl.a. grafisk analyse, for at lave research på vores stilart. Jeg udførte analysen ved at bestemme komposition, typografi og de generelle karakteristiske træk i nogle udvalgte kunstværker indenfor Dadaisme. Jeg brugte desuden Adobe Color CC til at få en oprigtig farvepalette i forhold til stilarten. Derudover har jeg anvendt flexbox for at gøre sitet responsivt, samt fontface og fontfamily til at give sitets tekst en font, der passer i stilen. I mange af de efterfølgende projekter har vi anvendt flexbox, for at sitet fungerer på forskellige devices.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="projects">
-        <div class="box1"><img src="Billeder/stilarthtml.png" alt="stilarthtml">
-            <p>I dette projekt lavede vi en bla bla bla ved hjælp af bla bla bla lalala lanla og sådan de.</p>
-        </div>
-        <div class="box2"><img src="Billeder/stilartui.png" alt="stilartui">
-            <p>beskrivelse</p>
-        </div>
-        <div class="box3"><img src="Billeder/stilartresp.png" alt="stilartresp">
-            <p>beskrivelse</p>
-        </div>
-    </div>
+    <footer>
+        <p>Københavns Erhvervsakademi / 2019</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
+
+
 </html>

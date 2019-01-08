@@ -8,12 +8,26 @@
         background-image: url(Billeder/splash2.png);
         background-size: 100vw 217vw;
     }
+
+    .projects img {
+        width: 30vw;
+        height: 30vw;
+        border: 0.2vw solid white;
+        border-radius: 100%;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
     body {
         background-image: url(Billeder/splash.png);
         background-size: 100vw 68vw;
+    }
+
+    .projects img {
+        width: 17vw;
+        height: 17vw;
+        border: 0.2vw solid white;
+        border-radius: 100%;
     }
 }
 
@@ -117,7 +131,7 @@ body {
 }
 
 .underhead {
-    color: #a0709c;
+    color: #f2f2f2;
     padding-left: 10vw;
     padding-right: 40vw;
     padding-top: 1vw;
@@ -166,27 +180,30 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    margin-bottom: 3vw;
 }
 
 .box2,
 .box4 {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 3vw;
+
 }
 
 .picture {
     flex-grow: 1;
     flex-basis: 0;
-    margin: 4vw 4vw 4vw 0;
+    margin: 0 4vw 4vw 0;
     text-align: center;
 }
 
 .box2 .picture {
-    margin: 4vw 0 0 4vw;
+    margin: 0 0 0 4vw;
 }
 
 .box4 .picture {
-    margin: 4vw 0 0 4vw;
+    margin: 0 0 4vw 4vw;
 }
 
 .picture p {
@@ -205,12 +222,14 @@ body {
     text-align: center;
 }
 
+/*
 .projects img {
     width: 14vw;
     height: 14vw;
     border: 0.2vw solid white;
     border-radius: 100%;
 }
+*/
 
 .projects img:hover {
     opacity: 0.65;

@@ -20,9 +20,6 @@
         margin-bottom: 105vw;
     }
 
-    #intro {
-        margin-bottom: 25vw;
-    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -112,6 +109,9 @@ body {
     flex-direction: column;
 }
 
+#intro {
+    margin-bottom: 25vw;
+}
 
 #hjem,
 #intro,
